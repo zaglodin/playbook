@@ -10,4 +10,4 @@
  - name: Install kibana
    hosts: elasticsearch
    roles: 
-     - kibana-role
+    - kibana-role
