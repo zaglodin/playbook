@@ -4,7 +4,7 @@
   roles: java
 - name: Install Elasticsearch
   hosts: elasticsearch
-  role: elastic-role 
+  roles: elastic-role 
 - name: Install kibana
   hosts: elasticsearch
   roles: kibana-role
